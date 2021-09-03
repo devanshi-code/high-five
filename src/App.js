@@ -1,15 +1,10 @@
 import React from 'react';
-import Navbar from "./components/Navbar/Navbar"
-import 
+import Navbar from "./components/Navbar/Navbar";
 
-function App () {
-  return (
-    <div className="App">
-    <Navbar />
-      
-    </div>
-  );
-}
+const App = () => {
+  return <Navbar />;
+};
 
 export default App;
+
 
