@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -30,7 +30,10 @@ const Navbar = () => {
                       </li>
                   </ul>
               </div>
-          </nav>
+              
+        
+      </nav>
+          
 
         </>
     );
