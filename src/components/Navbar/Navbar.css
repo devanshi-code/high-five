@@ -87,8 +87,7 @@ li {
    color: #FFFFFF;
    opacity: 1;
    background-color:#AF0404;
-
-
+   text-decoration: none;
    
 }
 
@@ -108,7 +107,13 @@ li {
   margin:40px 10px 0px 10px;
   color:white;
 } 
-
+nav>.logo{
+  color: #FF2626;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+}
 /* responsive css style  */
 @media (max-width: 1080px) {
   .navigation {

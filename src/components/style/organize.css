@@ -1,0 +1,33 @@
+.organize{
+    margin: 1px 30px;
+
+}
+.organize>h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.organize>form{
+    text-align: center;
+}
+.organize>form>p{
+    font-size: 20px;
+}
+.organize>form>input{
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    width: 340px;
+}
+.organize>form>button{
+    background: #EF0000 0% 0% no-repeat padding-box;
+    border: none;
+    color: white;
+    font-size: 19px;
+    padding: 2px 70px;
+    border-radius: 13px;
+    margin-top: 25px;
+}
+.organize>form>input:focus-visible{
+outline: none !important;
+}

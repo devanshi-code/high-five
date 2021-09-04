@@ -1,9 +1,10 @@
 import React from 'react';
+import './style/organize.css';
 
 
 const Organize = () => {
     return (
-        <>
+        <div className="organize">
         <h2>To organize your hackathon,fill all your details</h2>
         <form >
         <p>Enter your hackathon name</p>
@@ -19,11 +20,11 @@ const Organize = () => {
         <input type="text" />
         <p>Submit your participation link</p>
         <input type="text" />
-        
-        <input type='submit' />
+        <br/>
+       <button type="submit">SUBMIT</button>
 
          </form>   
-        </>
+        </div>
     )
 }
 

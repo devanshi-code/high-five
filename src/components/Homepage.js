@@ -7,7 +7,6 @@ import Header from "./Header.component";
     return ( 
          <> 
          <Header/>
-     <Organize/>
      <Upcoming/>
      <Contact/>
     </>

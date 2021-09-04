@@ -13,6 +13,7 @@ import Login from './components/Login';
 import Organize from './components/organize';
 import Homepage from './components/Homepage';
 import SignUp from './components/SignUp';
+import Meet from './components/Meet';
 // import 'bootstrap/dist/js/bootstrap.js';
 
 
@@ -41,6 +42,9 @@ const App = () => {
           </Route>
           <Route path="/Contact-Us">
             <Contact/>
+          </Route>
+          <Route path="/meet">
+            <Meet/>
           </Route>
         </Switch>
 </>
