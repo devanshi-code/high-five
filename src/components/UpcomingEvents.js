@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Carousel from "react-elastic-carousel";
+/*import Carousel from "react-elastic-carousel";*/
 import Event from "./Event";
 import "./style/upcomingEvents.css";
 
@@ -17,13 +17,13 @@ const Upcoming=()=> {
   return (
     <div className="Upcoming">
         <h1>Upcoming Events</h1>
-      <div className="carousel-wrapper">
+    { /* <div className="carousel-wrapper">
         <Carousel breakPoints={breakPoints}>
           {events.map((item) => (
             <Event eventName={item.eventName} start={item.start} end={item.end} happening={item.happening}/>
           ))}
         </Carousel>
-      </div>
+          </div> */}
     </div>
   );
 }
