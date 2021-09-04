@@ -19,27 +19,13 @@ const App = () => {
   return( 
     <>
     
-    <Router>
-   
-     <Switch>
-          
+    <Navbar/> 
+    <Header/>
+    <Organize/>
+     <Upcoming/>
+     <Contact/>
 
-          <Route exact path="/">
-           <Homepage/>
-           </Route> 
-          <Route exact path="/Organize-a-hackathon">
-            <Organize/>
-          </Route>
-          <Route path="/Upcoming-Events">
-            <Upcoming/>
-          </Route>
-          <Route path="/Contact-Us">
-            <Contact/>
-          </Route>
-        </Switch>
-        <Navbar/>
-
-    </Router>
+    
     
     
     

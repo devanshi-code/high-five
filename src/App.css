@@ -52,32 +52,6 @@ li {
   font-size: 3.5rem;
 }
 
-.menu-link {
-  grid-column: 2/3;
-  /* background-color: aquamarine; */
-}
-
-.menu-link ul {
-  height: 10rem;
-  display: flex;
-  justify-content: space-around;
-  align-items: right;
-}
-
-.menu-link ul li {
-  font-size: 1.8rem;
-}
-
-.menu-link ul li a {
-  color: rgba(0, 0, 3, 0.8);
-  transition: 0.5s;
-}
-.menu-link ul li:hover > a {
-  transform-origin: left;
-  color: rgba(0, 0, 3, 1);
-  text-decoration: underline;
-  transition: 0.5s;
-}
 
 
 
@@ -111,6 +85,12 @@ li {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.content{
+  top: 50px;
+  left: 780px;
+  width: 360px;
+  height: 47px;
 }
 /* responsive css style  */
 @media (max-width: 1080px) {
