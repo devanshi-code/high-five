@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Carousel from "react-elastic-carousel";
 import Event from "./Event";
-// import "./styles.css";
+import "./style/upcomingEvents.css";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },

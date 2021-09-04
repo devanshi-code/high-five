@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.contact{
+    padding: 55px 20px;
+    justify-content: space-around;
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+}
+.contact-form,.contact>.right-section{
+    width: 400px;
+}
+.contact-form>h1{
+    font-size: 37px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.contact-form>form>input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 3px 20px;
+    margin-bottom: 15px;
+}
+.contact-form>form>button{
+    background: #EF0000 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 30px;
+    font-size: 23px;
+    box-shadow: 10px 13px 16px #00000038;
+    color: white;
+}
+.contact>.right-section>h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.contact>.right-section>p{
+    font-size: 16px;
+    padding: 28px 0;
+}
