@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const organize = () => {
+const Organize = () => {
     return (
         <>
         <h2>To organize your hackathon,fill all your details</h2>
@@ -27,5 +27,5 @@ const organize = () => {
     )
 }
 
-export default organize;
+export default Organize;
 
