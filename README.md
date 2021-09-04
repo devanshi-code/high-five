@@ -37,7 +37,19 @@
 • High Five can auto-scale tables as your  participant count  increases , without a drop in quality. 
 
 # WorkFlow 👩‍💻 #
-
+• First, the user needs to sign up to High Five. If the user already has an account then they need to log in.
+<br>
+• The navbar contains organize a hackathon, upcoming events, contact us, login & sign up.
+<br>
+• Whoever wants to organize a hackathon, needs to submit their details.
+<br>
+• At upcoming events, users can participate in various hackathons.
+<br>
+• Users can also create meetings in which they can send messages, share their screens & can also visit other tables.
+<br>
+• If a user wants to join other members in a meeting he/she can enter with the meeting link/code.
+<br>
+• For any inquiries, entrepreneurs, developers, designers and visionaries, get in touch with us any time. We would love to hear your ideas and/or proposals, that's what we live for!
 
 # Tech Stacks 🖥️ #
 ReactJs
@@ -52,6 +64,7 @@ ReactJs
 
 Adobe XD
 
+Adobe Illustrator
 
 # Demo Video 📹 #
 
