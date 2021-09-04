@@ -23,15 +23,15 @@ const Header=()=>{
       };
 
 return(
-<div className="header">
+<div className="header" style={{padding:"20px", height:"450px",width:"600px"}}>
      <Slider {...settings}> 
-      <div><img src={h1} alt='' height="683px" width="711px"/></div>
-      <div ><img src={h2} height="683px" width="711px" /></div>
-      <div ><img src={h3} height="683px" width="711px" /></div>
-      <div><img src={h4} height="683px" width="711px"/></div>
-       <div><img src={h5} height="683px" width="711px"/></div>
-       <div><img src={h6} height="683px" width="711px"/></div>
-       <div><img src={h7} height="683px" width="711px"/></div>
+      <img src={h1} alt=''/>
+      <img src={h2} />
+      <img src={h3} />
+      <img src={h4}/>
+       <img src={h5}/>
+       <img src={h6}/>
+       <img src={h7}/>
       </Slider>
      
 </div>
