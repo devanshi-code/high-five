@@ -56,7 +56,7 @@ ReactJs
 
 Nodejscexpress
 
-socket.io
+socket
 
 Firebase
 
