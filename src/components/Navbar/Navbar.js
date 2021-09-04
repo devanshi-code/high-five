@@ -1,6 +1,7 @@
 import React ,{useState} from 'react';
 import "./Navbar.css";
 
+
 const Navbar = () => {
     return (
         <>
@@ -32,7 +33,8 @@ const Navbar = () => {
               </div>
         </nav>
         <section className="hero-section" >
-            
+          <h1>Meet your team members and enjoy premium video meetings</h1>
+
         </section>
 
         </>
