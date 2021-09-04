@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import Upcoming from './components/UpcomingEvents';
-import Header from './components/Header.component';
 import Contact from './components/Contact';
 import {
   BrowserRouter as Router,
@@ -11,8 +10,9 @@ import {
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Login from './components/Login';
-import Organize from './components/Organize';
+import Organize from './components/organize';
 import Homepage from './components/Homepage';
+import SignUp from './components/SignUp';
 // import 'bootstrap/dist/js/bootstrap.js';
 
 
@@ -20,12 +20,19 @@ const App = () => {
   return( 
    <>
     <Router>
-   
+      <>
+    <Navbar/>
      <Switch>
   
           <Route exact path="/">
            <Homepage/>
-           </Route> 
+          </Route> 
+          <Route exact path="/Login">
+           <Login/>
+          </Route> 
+          <Route exact path="/SignUp">
+           <SignUp/>
+          </Route> 
           <Route exact path="/Organize-a-hackathon">
             <Organize/>
           </Route>
@@ -36,12 +43,9 @@ const App = () => {
             <Contact/>
           </Route>
         </Switch>
-        <Navbar/>
-
+</>
     </Router>
-    
-    
-    
+ 
    </>
   );
 };

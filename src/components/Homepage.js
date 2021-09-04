@@ -1,18 +1,12 @@
 import React from "react"
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
-import Navbar from "./Navbar/Navbar";
 import Upcoming from './UpcomingEvents';
-import Header from './Header.component';
 import Contact from './Contact';
-import Organize from "./Organize";
+import Organize from "./organize";
+import Header from "./Header.component";
  function Homepage() {
     return ( 
          <> 
+         <Header/>
      <Organize/>
      <Upcoming/>
      <Contact/>
