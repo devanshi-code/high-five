@@ -19,6 +19,7 @@ const organize = () => {
         <input type="text" />
         <p>Submit your participation link</p>
         <input type="text" />
+        
         <input type='submit' />
 
          </form>   
