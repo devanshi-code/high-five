@@ -1,0 +1,20 @@
+.loginPage>section{
+    padding: 30px 20px;
+}
+.loginPage>section>h2{
+    font-size: 35px;
+    text-align: center;
+}
+.loginPage>section>p{
+    font-size: 19px;
+    text-align: center;
+}
+#sawo-container>iframe{
+    padding: 20px !important;
+}
+.sawo-btn{
+    background: #AF0404 0% 0% no-repeat padding-box !important;
+    box-shadow: 5px 3px 10px #00000029;
+    border: 0.5px solid #DBDBDB;
+    color: white;
+}

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Upcoming from './components/UpcomingEvents';
 import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.css';
+import Login from './components/Login';
 // import 'bootstrap/dist/js/bootstrap.js';
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <Navbar/>
     <Upcoming/>
     <Contact />
+    <Login />
     </>
   );
 };
