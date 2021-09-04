@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.Upcoming{
+    padding: 35px 20px;
+    background: #414141 0% 0% no-repeat padding-box;
+}
+.Upcoming>h1{
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 5px 8px 11px #0000004d;
+    font: normal normal 300 43px Open Sans;
+}
+.iHAfmq{
+    opacity: 0 !important;
+}
+.eQpvzW{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    padding: 30px 0 !important;
+    margin: 0 30px !important;
+    width: 305px !important;
+}
+.Event-Container>h2{
+    font: normal normal normal 30px Open Sans;
+    color: #FF0000;
+}
+.Event-Container>h5{
+    font-size: 19px;
+    font-weight: 400;
+}
+.Event-Container>h3{
+    font-size: 21px;
+    font-weight: 400;
+}
+.Event-Container>h5>span, .Event-Container>h3>span{
+    font-weight: 500;
+}
+.Event-Container>button{
+    background: #EF0000 0% 0% no-repeat padding-box;
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 0px 50px;
+    border-radius: 13px;
+}
+.khvUfi{
+    background-color: rgb(255 255 255 / 10%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 2px 0px #4c4c4c !important;
+}
+.khvUfi:hover{
+    background-color: rgb(224 22 22 / 39%) !important;
+}

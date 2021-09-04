@@ -1,14 +1,21 @@
 import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
-import button from './components/assets/button';
+import Upcoming from './components/UpcomingEvents';
 import Header from './components/Header.component';
+import Contact from './components/Contact';
+import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/js/bootstrap.js';
+
 const App = () => {
-  return(<div> <Navbar />
-          <Header/>  
-          </div>
-  ) ;      
+  return( 
+    <>
+    <Navbar/>
+    <Header/> 
+    <Upcoming/>
+    <Contact />
+
+    </>
+  );
 };
 
 export default App;
-
-
