@@ -30,10 +30,10 @@ const Navbar = () => {
                       </li>
                   </ul>
               </div>
-              
-        
-      </nav>
-          
+        </nav>
+        <section className="hero-section" >
+            
+        </section>
 
         </>
     );
