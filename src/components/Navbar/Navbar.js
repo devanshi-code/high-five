@@ -1,5 +1,7 @@
 import React ,{useState} from 'react';
 import "./Navbar.css";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 
 const Navbar = () => {
