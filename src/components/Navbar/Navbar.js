@@ -1,5 +1,5 @@
-import React from 'react';
-
+import React ,{useState} from 'react';
+import "./Navbar.css";
 
 const Navbar = () => {
     return (
@@ -30,7 +30,10 @@ const Navbar = () => {
                       </li>
                   </ul>
               </div>
-          </nav>
+        </nav>
+        <section className="hero-section" >
+            
+        </section>
 
         </>
     );
