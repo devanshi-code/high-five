@@ -6,7 +6,7 @@
  #### High Five is an online platform for hackathons where you can Participate  or conduct a hackathon. We’ll build your hackathons everywhere in the world to help you find innovative solutions and talent while showcasing your ideas.  At High Five, Judges can directly connect with particpants through video call where participants can explain their projects by sharing on thier screen. It is a Two Screen platform in which one screen is of students and other screen is of Hackathon Organizer. Event will be fruitful only if both the particpants  and judges are at comfort. ####
 <br>
 
- # Features 👀 #
+ # Features ✨ #
  • Signup
  <br>
  • Login
@@ -32,6 +32,4 @@
 • High Five can auto-scale tables as your  participant count  increases , without a drop in quality. 
 
 
-
-
-
+![Web 1920 – 1](https://user-images.githubusercontent.com/65345284/132090060-4b948e44-de97-447e-b035-67b247368358.jpg)
