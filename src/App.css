@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Jost", sans-serif;
+
+ 
 }
 
 html {
@@ -77,41 +79,7 @@ li {
   transition: 0.5s;
 }
 
-.social-media {
-  /* background-color: black; */
-  grid-column: 4/5;
-}
 
-.social-media ul {
-  height: 10rem;
-  display: grid;
-  grid-template-columns: 3fr repeat(3, 1fr);
-  align-items: center;
-}
-
-.social-media ul li:first-child {
-  grid-column: 2/3;
-}
-
-.social-media ul li {
-  font-size: 1.8rem;
-}
-
-.social-media .hamburger-menu {
-  display: none;
-}
-
-.facebook {
-  color: #3b5998;
-}
-
-.instagram {
-  color: #c32aa3;
-}
-
-.youtube {
-  color: #ff0000;
-}
 
 /* hero section   */
 
@@ -134,6 +102,16 @@ li {
   text-align: center;
 }
 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 /* responsive css style  */
 @media (max-width: 1080px) {
   .main-nav {
@@ -159,8 +137,8 @@ li {
     display: none;
   }
 
-  .logo,
-  .social-media ul {
+  .logo
+   {
     height: 7rem;
   }
 
@@ -195,30 +173,7 @@ li {
     transition-delay: 0.2s;
   }
 
-  .social-media {
-    grid-row: 1/2;
-    grid-column: 3/5;
-    justify-items: end;
-    align-items: center;
-    transition: all 2s linear;
-  }
-
-  .social-media .social-media-desktop {
-    height: 0;
-    display: none;
-  }
-
-  .social-media {
-    height: 7rem;
-    display: flex;
-    justify-self: end;
-    align-items: center;
-  }
-
-  .social-media .hamburger-menu {
-    display: block;
-    font-size: 2.5rem;
-  }
+  
 }
 
 @media (max-width: 798px) {
@@ -227,22 +182,12 @@ li {
     grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
   }
 
-  .logo,
-  .social-media ul {
+  .logo
+  {
     height: 6rem;
   }
 
-  .social-media {
-    height: 6rem;
-    display: flex;
-    justify-self: end;
-    align-items: center;
-  }
-
-  .social-media .hamburger-menu {
-    display: block;
-    font-size: 2.5rem;
-  }
+  
 }
 
 @media (max-width: 520px) {
@@ -251,8 +196,8 @@ li {
     grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
   }
 
-  .logo,
-  .social-media ul {
+  .logo
+  {
     height: 6rem;
   }
 
@@ -260,17 +205,7 @@ li {
     font-size: 2rem;
   }
 
-  .social-media {
-    height: 6rem;
-    display: flex;
-    justify-self: end;
-    align-items: center;
-  }
-
-  .social-media .hamburger-menu {
-    display: block;
-    font-size: 2.5rem;
-  }
+  
 
   /* hero section  */
 
