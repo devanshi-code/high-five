@@ -9,8 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const App = () => {
   return( 
     <>
-    <Navbar/>
-    <Header/> 
+    <Navbar/> 
     <Upcoming/>
     <Contact />
 
