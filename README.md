@@ -1,4 +1,9 @@
+<img src="https://user-images.githubusercontent.com/72223546/132097715-c175cfac-510e-42fd-8c16-ecfe1aebcacb.png" width="300" align="left"/>
+
+ 
 # *__High Five__*  #
+
+
 ##  *High five through video calls 💻* ## 
 <br>
 
@@ -31,5 +36,25 @@
  <br>
 • High Five can auto-scale tables as your  participant count  increases , without a drop in quality. 
 
+# WorkFlow 👩‍💻 #
 
-![Web 1920 – 1](https://user-images.githubusercontent.com/65345284/132090060-4b948e44-de97-447e-b035-67b247368358.jpg)
+
+# Tech Stacks 🖥️ #
+ReactJs
+
+Nodejscexpress
+
+socket.io
+
+Firebase
+
+ReactJs
+
+Adobe XD
+
+
+# Demo Video 📹 #
+
+
+
+<img src="https://user-images.githubusercontent.com/65345284/132090060-4b948e44-de97-447e-b035-67b247368358.jpg" width="600" />
