@@ -2,7 +2,12 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import VideocamIcon from '@material-ui/icons/Videocam';
 import KeyboardIcon from '@material-ui/icons/Keyboard';
 import h1 from './assets/images/h1.gif';
@@ -40,7 +45,7 @@ return(
      
 </div>  <section className="hero-section">
     <h1>Meet your team members and enjoy premium video meetings</h1>
-    <button type="button" ><a href="/meet"  className=" abc">Create a meeting <VideocamIcon style={{fontSize:'40px',marginBottom:'5px',color:'black'}} /></a></button><br/>
+    <button type="button" ><Link to="/meet"  className=" abc">Create a meeting <VideocamIcon style={{fontSize:'40px',marginBottom:'5px',color:'black'}} /></Link></button><br/>
     <button type="button" class=" def">Enter a code or link</button>
     <h3>Click <b>Create a meeting</b> to get a link you can send to people you want to meet with</h3>
   </section>
